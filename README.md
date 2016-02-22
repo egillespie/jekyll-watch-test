@@ -23,6 +23,8 @@ Configuration file: /Users/egillespie/Projects/jekyll-watch-test/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
+## Steps to Manually Reproduce Error
+
 Here are the steps required to create this project from scratch:
 
 1. Create an empty GitHub repository.
