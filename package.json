@@ -20,5 +20,10 @@
   "devDependencies": {
     "git-scripts": "^0.2.1",
     "surge": "^0.17.7"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "echo git-scripts pre-push message says what"
+    }
   }
 }
