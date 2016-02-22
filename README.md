@@ -30,7 +30,10 @@ Here are the steps required to create this project from scratch:
 1. Create an empty GitHub repository.
 2. `git clone git@github.com:egillespie/jekyll-watch-test.git` (use URL for empty repo)
 3. `cd jekyll-watch-test/`
-4. `jekyll new .`
+4. `bundle init`
+5. `vi Gemfile` (Add `gem 'jekyll', '=3.1.1'`)
+6. `bundle install`
+4. `bundle exec jekyll new .`
 5. `npm init -y`
 6. `npm install --save-dev git-scripts`
 7. `vi .gitignore` (add `node_modules`) 
@@ -39,4 +42,4 @@ Here are the steps required to create this project from scratch:
 10. `git add -A .`
 11. `git commit -m "Add project"`
 12. `git push origin master` (Will see message "git-scripts pre-push message says what" in output)
-13. `jekyll serve` (Will see ERROR message)
+13. `bundle exec jekyll serve` (Will see ERROR message)
