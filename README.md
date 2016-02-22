@@ -23,7 +23,16 @@ Configuration file: /Users/egillespie/Projects/jekyll-watch-test/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-## Steps to Manually Reproduce Error
+## Recreate Error From Existing Repo
+
+Here are the steps to reproduce the error using this repository:
+
+1. `git clone git@github.com:egillespie/jekyll-watch-test.git`
+2. `bundle install`
+3. `npm install`
+4. `bundle exec jekyll serve` (should see ERROR message)
+
+## Recreate Error From Scratch
 
 Here are the steps required to create this project from scratch:
 
